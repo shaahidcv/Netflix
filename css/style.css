@@ -1,0 +1,100 @@
+body {
+   
+}
+.main {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(../images/IN-en-20241111-TRIFECTA-perspective_149877ab-fcbd-4e4f-a885-8d6174a1ee81_large.jpg);
+  background-size: cover;
+  height: 100vh;
+  /* position: relative; */
+}
+
+
+.main nav {
+  display: flex;
+  justify-content: space-between;
+  margin: 0% 7%;
+}
+
+.main nav .logo {
+  width: 80px;
+  height: 80px;
+}
+
+.main nav .logo img {
+  height: 100%;
+}
+
+.main nav .select {
+  display: flex;
+  align-items: center;
+}
+
+.select select {
+  color: #fff;
+  padding: 4px 20px;
+  border: 0.5px solid #fff;
+  border-radius: 5px;
+  background-color: transparent;
+  margin-right: 10px;
+}
+select option {
+  color: #000;
+}
+
+.main nav .select button {
+  background-color: #e50914;
+  color: #fff;
+  padding: 5px 20px;
+  border: none;
+  border-radius: 5px;
+}
+.line {
+  height: 60px;
+  width: 100%;
+
+  position: absolute;
+  bottom: 0px;
+  border-top: solid 0.25rem #e50914;
+  border-top-left-radius: 50% 100%;
+  border-top-right-radius: 50% 100%;
+  border-bottom: none;
+  background: radial-gradient(
+      50% 500% at 50% -420%,
+      rgba(64, 97, 231, 0.4) 80%,
+      rgba(0, 0, 0, 0.1) 100%
+    ),
+    black;
+}
+.slider {
+  background-color: #000;
+  width: 100%;
+ 
+}
+.text-body1{
+  color: #a9a9a9;
+ 
+  font-weight: normal;
+}
+
+.slider select{
+    color: #fff;
+    padding: 4px 20px;
+    border: 0.5px solid #fff;
+    border-radius: 5px;
+    background-color: transparent;
+    margin-right: 10px;
+}
+
+
+@media(max-width: 520px) {
+  .select select {
+    display: none;
+  }
+
+}
+
+#img{
+    /* position: relative;
+    top: 0; */
+}
